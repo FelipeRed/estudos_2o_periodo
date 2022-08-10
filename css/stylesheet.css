@@ -1,0 +1,121 @@
+body, ul, li, p{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: 'Nunito', sans-serif;
+}
+
+a {
+    text-decoration: none; /* tira o sublinhado */
+    color: white;
+}
+
+.header , header div{
+    background-color: rgb(27, 25, 25);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-top: 9px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    margin-left: 25px;
+}
+
+.menu li a {
+    display: block;
+    padding: 10px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1180px;
+    margin: auto;
+    /*border: 1px solid yellow;*/
+}
+
+section.lancamento {
+    background-image: url(https://images3.alphacoders.com/117/1173136.jpg);
+    height: 700px;
+    background-size: cover;
+}
+
+.lancamento-conteudo {
+    color: white;
+}
+
+section.lancamento .lancamento-conteudo h2 {
+    margin: 0px;
+}
+
+section.lancamento .lancamento-conteudo p {
+    margin: 8px 0px;
+    max-width: 320px;
+}
+
+section.lancamento .container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+section.historia {
+    background-image: url(https://images.pexels.com/photos/957061/milky-way-starry-sky-night-sky-star-957061.jpeg?auto=compress&cs=tinysrgb&h=627&fit=crop&w=1200);
+    height: 450px;
+}
+
+section.historia .container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.historia-conteudo {
+    color: white;
+}
+
+img {
+    max-width: 100%;
+}
+
+section.jogos {
+    background-color: rgb(14, 212, 212);
+}
+
+section.jogos h2 {
+    margin-top: 0px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.jogos-conteudo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    margin: 0 auto;
+}
+
+.lista-jogo {
+    display: grid;
+}
+
+.lista-jogo img{
+    grid-column: 1;
+    grid-row: 1/3;
+}
+
+.lista-jogo p{
+    background: rgba(0, 0, 0, .6);
+    padding: 10px;
+    grid-column: 1;
+    color: white;
+    grid-row: 2/3;
+}
