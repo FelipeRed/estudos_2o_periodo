@@ -1,0 +1,62 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background: rgba(0, 0, 0, 0.134);
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: rgb(77, 77, 255);
+    height: 10.5vh;
+    text-align: center;
+    
+}
+
+h1 {
+    margin-top: 0px;
+    padding-top: 20px;
+    color: white;
+}
+
+.container {
+    
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    background-color: white;
+}
+
+table {
+    border: 1px solid;
+    width: 800px;
+}
+
+th {
+    text-align: left;
+    border-bottom: 2px solid blue;
+}
+
+.col1 {
+    text-align: right;
+    width: 300px;
+    font-weight: bold;
+}
+
+
+.primeiraTable {
+    text-align: center;
+    width: 300px;
+    font-weight: bold;
+}
+
+.cabecalho {
+    display: flex;
+}
+
+.fotoPerfil {
+    width: 70%;
+}
+
+.borderless {
+    border: none;
+}
