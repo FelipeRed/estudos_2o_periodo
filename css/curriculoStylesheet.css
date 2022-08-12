@@ -1,8 +1,8 @@
 body {
     padding: 0px;
     margin: 0px;
-    background: rgba(0, 0, 0, 0.134);
-    font-family: 'Roboto', sans-serif;
+    background: rgba(173, 218, 255, 0.227);
+    font-family: Tahoma, Geneva, sans-serif;
 }
 
 p {
@@ -10,42 +10,54 @@ p {
 }
 
 header {
-    background-color: rgb(77, 77, 255);
-    height: 10.5vh;
+    background-color: rgb(255, 255, 255);
     text-align: center;
-    
+    border-bottom: solid 1.3px rgba(0, 0, 255, 0.3);
 }
 
-h1 {
-    margin-top: 0px;
-    padding-top: 20px;
-    color: white;
+header img {
+    width: 4.5%;
 }
 
 .container {
-    
+    border-radius: 14px;
+    border: solid 2px rgba(0, 0, 0, 0.4);
     width: 100%;
     max-width: 1000px;
     margin: auto;
     background-color: white;
 }
 
+.box {
+    border-radius: 14px;
+    width: 100%;
+    max-width: 1008px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
 table {
-    border: 1px solid;
-    width: 800px;
+    width: 990px;
 }
 
 th {
+    color: rgb(0, 0, 170);
+    font-size: 17px;
+    font-weight: normal;
     text-align: left;
-    border-bottom: 2px solid blue;
+    border-bottom: 1px solid blue;
+}
+
+td {
+    font-size: 15.5px;
+    padding-left: 10px;
 }
 
 .col1 {
     text-align: right;
-    width: 275px;
+    width: 445px;
     font-weight: bold;
 }
-
 
 .primeiraTable {
     text-align: center;
@@ -53,14 +65,8 @@ th {
     font-weight: bold;
 }
 
-.cabecalho {
-    display: flex;
-}
-
 .fotoPerfil {
-    width: 70%;
-}
-
-.borderless {
-    border: none;
+    border-radius: 30px;
+    border: solid 1px;
+    width: 60%;
 }
